@@ -24,6 +24,8 @@
         - Google Ads
         - Google Analytics
 
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/NoticeDisclosure.png?raw=true)
+
 ### Advanced Google Consent Mode
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
