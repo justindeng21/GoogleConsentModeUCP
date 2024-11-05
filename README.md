@@ -30,6 +30,8 @@
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
+
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
     - (Optional) Enable URL passthrough.
@@ -43,6 +45,8 @@
 5. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
 6. Add the "Consent Initialization - All Pages" trigger to the tag.
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AdvancedConsentMode.png?raw=true)
 
 ### Basic Google Consent Mode
 
