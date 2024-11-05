@@ -24,17 +24,17 @@
         - Google Ads
         - Google Analytics
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/NoticeDisclosure.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesNoticeDisclosure.png?raw=true)
 
 ### Advanced Google Consent Mode
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesCommunityGallary.png?raw=true)
 
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AddingNewTag.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesAddingNewTag.png?raw=true)
 
 3. (Optional) Enable URL passthrough.
    
@@ -46,7 +46,7 @@
 
 7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AdvancedConsentMode.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesAdvancedConsentMode.png?raw=true)
 
 8. Add the "Consent Initialization - All Pages" trigger to the tag.
 
@@ -54,11 +54,11 @@
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesCommunityGallary.png?raw=true)
 
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AddingNewTag.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesAddingNewTag.png?raw=true)
 
 3. (Optional) Enable URL passthrough.
    
@@ -68,7 +68,7 @@
 
 6. Disable Advanced Google Consent Mode.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/BasicConsentMode.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesBasicConsentMode.png?raw=true)
 
 7. Add the "Consent Initialization - All Pages" trigger to the tag.
 
@@ -80,26 +80,26 @@ Tag Wrapping is only necessary for non-google tags when Advanced Google consent 
 
     * Please ensure that the consent level is set to "Category".
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/GTMRecipe.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesGTMRecipe.png?raw=true)
 
 2. Import the GTM recipe into your GTM container without overwriting changes. This file will contain the triggers needed for Tag Wrapping.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/ImportingTriggers.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesImportingTriggers.png?raw=true)
 
 3. Please attach a "{Category Name} Consented Trigger" and the "All Categories Consented Trigger" to each tag you plan to fire with user consent. If you have triggers already configured for your tags, please create a trigger group with one of the category triggers; both condition will need to be true for the tag to fire. All Evidon triggers will fire on the following event **evidonConsentGiven**. 
 
 Tag Wrapping a tag with triggers:
 
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/exampleTriggers.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesexampleTriggers.png?raw=true)
 
 Tag Wrapping with a trigger Group:
 
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup1.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesTriggerGroup1.png?raw=true)
 
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup2.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesTriggerGroup2.png?raw=true)
 
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup3.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/imagesTriggerGroup3.png?raw=true)
