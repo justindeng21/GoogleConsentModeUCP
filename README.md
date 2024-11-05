@@ -30,23 +30,21 @@
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/NoticeDisclosure.png?raw=true)
 
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
-    - (Optional) Enable URL passthrough.
+3. (Optional) Enable URL passthrough.
    
-    - (Optional) Enable Debug mode.
+4. (Optional) Enable Debug mode.
 
-3. Configure the GTM container with the Company ID that has been assigned to your account.
+5. Configure the GTM container with the Company ID that has been assigned to your account.
 
-4. Configure the Default consent state. This is the default state of the Google Consent types before a consent update is sent by UCP.
+6. Configure the Default consent state. This is the default state of the Google Consent types before a consent update is sent by UCP.
 
-5. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
-6. Add the "Consent Initialization - All Pages" trigger to the tag.
-
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AdvancedConsentMode.png?raw=true)
+8. Add the "Consent Initialization - All Pages" trigger to the tag.
 
 ### Basic Google Consent Mode
 
@@ -54,15 +52,15 @@
 
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
-    - (Optional) Enable URL passthrough.
+3. (Optional) Enable URL passthrough.
    
-    - (Optional) Enable Debug mode.
+4.  (Optional) Enable Debug mode.
 
-3. Configure the GTM container with the Company ID that has been assigned to your account.
+5. Configure the GTM container with the Company ID that has been assigned to your account.
 
-4. Disable Advanced Google Consent Mode.
+6. Disable Advanced Google Consent Mode.
 
-5. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
 ### Tag Wrapping
 
