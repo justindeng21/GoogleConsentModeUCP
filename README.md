@@ -56,11 +56,15 @@
 
 4. Disable Advanced Google Consent Mode.
 
+5. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+
 ### Tag Wrapping
 
 Tag Wrapping is only necessary for non-google tags when Advanced Google consent mode is enabled; Google tags will need to be fired after the default consent is set. Please enable the debug mode to see if any Google tags are accessing the **dataLayer** object before the default consent state is defined. If Advanced Google Consent mode is not enabled, then all tags will need to be fired with Evidon triggers.
 
-1. Download the GTM Recipe available at https://privacy.evidon.com
+1. Download the GTM Recipe available at https://privacy.evidon.com.
+
+    * Please ensure that the consent level is set to "Category".
 
 2. Import the GTM recipe into your GTM container without overwriting changes. This file will contain the triggers needed for Tag Wrapping.
 
