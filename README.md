@@ -91,7 +91,7 @@ Tag Wrapping is only necessary for non-google tags when Advanced Google consent 
 Tag Wrapping a tag with triggers:
 
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/ImportingTriggers.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/exampleTriggers.png?raw=true)
 
 Tag Wrapping with a trigger Group:
 
