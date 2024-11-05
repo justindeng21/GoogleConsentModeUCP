@@ -30,9 +30,11 @@
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
-![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/NoticeDisclosure.png?raw=true)
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
 
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AddingNewTag.png?raw=true)
 
 3. (Optional) Enable URL passthrough.
    
@@ -44,13 +46,19 @@
 
 7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AdvancedConsentMode.png?raw=true)
+
 8. Add the "Consent Initialization - All Pages" trigger to the tag.
 
 ### Basic Google Consent Mode
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
 
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/CommunityGallary.png?raw=true)
+
 2. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/AddingNewTag.png?raw=true)
 
 3. (Optional) Enable URL passthrough.
    
@@ -60,7 +68,9 @@
 
 6. Disable Advanced Google Consent Mode.
 
-7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/BasicConsentMode.png?raw=true)
+
+7. Add the "Consent Initialization - All Pages" trigger to the tag.
 
 ### Tag Wrapping
 
@@ -70,7 +80,11 @@ Tag Wrapping is only necessary for non-google tags when Advanced Google consent 
 
     * Please ensure that the consent level is set to "Category".
 
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/GTMRecipe.png?raw=true)
+
 2. Import the GTM recipe into your GTM container without overwriting changes. This file will contain the triggers needed for Tag Wrapping.
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/ImportingTriggers.png?raw=true)
 
 3. Please attach a "{Category Name} Consented Trigger" and the "All Categories Consented Trigger" to each tag you plan to fire with user consent. If you have triggers already configured for your tags, please create a trigger group with one of the category triggers; both condition will need to be true for the tag to fire. All Evidon triggers will fire on the following event **evidonConsentGiven**. 
 
