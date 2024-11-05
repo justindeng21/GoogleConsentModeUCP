@@ -88,4 +88,18 @@ Tag Wrapping is only necessary for non-google tags when Advanced Google consent 
 
 3. Please attach a "{Category Name} Consented Trigger" and the "All Categories Consented Trigger" to each tag you plan to fire with user consent. If you have triggers already configured for your tags, please create a trigger group with one of the category triggers; both condition will need to be true for the tag to fire. All Evidon triggers will fire on the following event **evidonConsentGiven**. 
 
+Tag Wrapping a tag with triggers:
 
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/ImportingTriggers.png?raw=true)
+
+Tag Wrapping with a trigger Group:
+
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup1.png?raw=true)
+
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup2.png?raw=true)
+
+
+![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/TriggerGroup3.png?raw=true)
