@@ -8,4 +8,13 @@
 
 3. Add the Evidon Universal Consent Platform tag under the "Tag" section in GTM.
 
-4. 
+    3a. Enable URL passthrough.
+    3b. Enable Debug mode.
+
+4. Configure the GTM container with the Company ID that has been assigned to your account.
+
+5. Configure the Default consent state. This is the default state of the Google Consent types before a consent update is sent by UCP.
+
+6. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+
+7. Add the "Consent Initialization - All Pages" trigger to the tag. 
