@@ -26,6 +26,12 @@
 
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/NoticeDisclosure.png?raw=true)
 
+    Relevant Documentation:
+        - https://community.crownpeak.com/t5/Universal-Consent-Platform-UCP/Universal-Consent-Platform-Getting-Started-Guide/ta-p/7756
+
+
+
+
 ### Advanced Google Consent Mode
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
@@ -50,6 +56,13 @@
 
 8. Add the "Consent Initialization - All Pages" trigger to the tag.
 
+
+    *Relevant Documentation: 
+        - https://support.google.com/google-ads/answer/10000067?hl=en
+
+
+
+
 ### Basic Google Consent Mode
 
 1. Install the Evidon Universal consent Platform GTM template from the Google's Community Template Gallery in GTM.
@@ -71,6 +84,14 @@
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/BasicConsentMode.png?raw=true)
 
 7. Add the "Consent Initialization - All Pages" trigger to the tag.
+
+
+    *Relevant Documentation: 
+        - https://support.google.com/google-ads/answer/10000067?hl=en
+
+
+
+
 
 ### Tag Wrapping
 
