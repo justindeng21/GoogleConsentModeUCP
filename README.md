@@ -27,6 +27,7 @@
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/NoticeDisclosure.png?raw=true)
 
     Relevant Documentation:
+
         - https://community.crownpeak.com/t5/Universal-Consent-Platform-UCP/Universal-Consent-Platform-Getting-Started-Guide/ta-p/7756
 
 
@@ -42,26 +43,25 @@
 
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/AddingNewTag.png?raw=true)
 
-3. (Optional) Enable URL passthrough.
+3. Configure the GTM container with the Company ID that has been assigned to your account.
+
+4. (Optional) Enable URL passthrough.
    
-4. (Optional) Enable Debug mode.
+5. (Optional) Enable Debug mode.
 
-5. Configure the GTM container with the Company ID that has been assigned to your account.
+6. Ensure that the option to enable Advanced Google consent mode is checked.
 
-6. Configure the Default consent state. This is the default state of the Google Consent types before a consent update is sent by UCP.
+7. Configure the Default consent state for each consent type (ad_storage, ad_personalization, ad_user_data, and analytics_storage). This is the default state of the consent types if the end user has not provided consent.
 
-7. Configure the regions where you would like to enabled Advanced Google Consent Mode.
+8. Configure the regions where you would like to enabled Advanced Google Consent Mode.
 
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/AdvancedConsentMode.png?raw=true)
 
-8. Add the "Consent Initialization - All Pages" trigger to the tag.
+9. Add the "Consent Initialization - All Pages" trigger to the tag.
 
+    *Relevant Documentation:
 
-    *Relevant Documentation: 
         - https://support.google.com/google-ads/answer/10000067?hl=en
-
-
-
 
 ### Basic Google Consent Mode
 
@@ -73,11 +73,11 @@
 
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/AddingNewTag.png?raw=true)
 
-3. (Optional) Enable URL passthrough.
-   
-4.  (Optional) Enable Debug mode.
+3. Configure the GTM container with the Company ID that has been assigned to your account.
 
-5. Configure the GTM container with the Company ID that has been assigned to your account.
+4. (Optional) Enable URL passthrough.
+   
+5.  (Optional) Enable Debug mode.
 
 6. Disable Advanced Google Consent Mode.
 
@@ -85,8 +85,8 @@
 
 7. Add the "Consent Initialization - All Pages" trigger to the tag.
 
+    *Relevant Documentation:
 
-    *Relevant Documentation: 
         - https://support.google.com/google-ads/answer/10000067?hl=en
 
 
