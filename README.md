@@ -22,7 +22,6 @@
         - Google Mobile Ads
         - Google IMA
         - Google Ads
-        - Google Analytics
 
 ![alt text](https://github.com/justindeng21/GoogleConsentModeUCP/blob/main/images/NoticeDisclosure.png?raw=true)
 
